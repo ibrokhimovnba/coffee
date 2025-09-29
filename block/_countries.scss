@@ -1,0 +1,74 @@
+.countries {
+    width: 1045px;
+    height: 366px;
+    background-color: #fff;
+    margin: 100px auto;
+
+    &_main_title {
+        width: 255px;
+        height: 32px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin: 10px 50px 20px 50px;
+    }
+
+    &_headquarters {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        width: 1045px;
+        height: 262px;
+    }
+
+    &_UK_img {
+        width: 41px;
+        height: 49px;
+    }
+
+    &_CAN_img {
+        width: 52px;
+        height: 50px;
+    }
+
+    &_AUS_img {
+        width: 49px;
+        height: 44px;
+    }
+
+    &_title {
+        width: 272px;
+        height: 36px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &_title2 {
+        width: 255px;
+        height: 36px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &_text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        margin-top: 5px;
+    }
+}

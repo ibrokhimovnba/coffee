@@ -1,0 +1,39 @@
+.quality {
+    width: 1280px;
+    height: 474px;
+    display: flex;
+    margin-top: 200px;
+    background-color: #2C343E;
+    border-radius: 10px;
+
+    &__texts {
+        margin: 100px ;
+        color: #FEFCF7;
+    }
+
+    &__title {
+        width: 517px;
+        height: 48px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    &__text {
+        width: 550px;
+        height: 130px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16.4px;
+        line-height: 26px;
+        margin-top: 23px;
+    }
+
+    &_img {
+        width: 445px;
+        height: 474px;
+        position: relative;
+        bottom: 90px;
+    }
+}
